@@ -1,0 +1,9 @@
+MpgTest.obj
+cvi.lib
+cvistart.lib
+MpgIOdata.lib
+kernel32.lib
+user32.lib
+EXE Symbol Module
+Exports Module
+Resource Module

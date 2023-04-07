@@ -1,0 +1,1 @@
+-force-include-file "MpgTest.c";"d:\Workspace\VisualStudio\Test\MPG_2022.03.31\MpgTest\MpgTest.c" 

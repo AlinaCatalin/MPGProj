@@ -1,0 +1,43 @@
+CCFLAGS = -g ;
+HDRS = 	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\activex\\word"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\activex\\excel"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\custctrl"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\custctrl\\custsupp"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\cvirtsup"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\datasock"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\daqUtil"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\printing"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\toolbox"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\reportgen"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\localui"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\instr"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2020\\instr"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2020\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\include\\ansi"
+	"c:\\program files (x86)\\national instruments\\cvi2020\\include\\clang\\3.3"
+	"C:\\Program Files (x86)\\IVI Foundation\\IVI\\Include"
+	"C:\\Program Files (x86)\\IVI Foundation\\VISA\\winnt\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\MSDTRedistributables\\SDKHeaderFiles\\8.1"
+	"c:\\Program Files (x86)\\National Instruments\\CVI2020\\bin"
+	"c:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\bin"
+	"d:\\Workspace\\VisualStudio\\Test\\MPG_2022.03.31\\MpgIOdata"
+	;
+include Jamfile_instr ;
+LOCATE on "MpgTest.c" = "d:\\Workspace\\VisualStudio\\Test\\MPG_2022.03.31\\MpgTest" ;
+Object "d:\\Workspace\\VisualStudio\\Test\\MPG_2022.03.31\\MpgTest\\cvibuild.MpgTest\\Debug\\MpgTest.obj" : "d:\\Workspace\\VisualStudio\\Test\\MPG_2022.03.31\\MpgTest\\MpgTest.c" ;
+FILENUM on "d:\\Workspace\\VisualStudio\\Test\\MPG_2022.03.31\\MpgTest\\cvibuild.MpgTest\\Debug\\MpgTest.obj" = 1 ;
+DEFPROTS on "d:\\Workspace\\VisualStudio\\Test\\MPG_2022.03.31\\MpgTest\\cvibuild.MpgTest\\Debug\\MpgTest.obj" = "d:\\Workspace\\VisualStudio\\Test\\MPG_2022.03.31\\MpgTest\\cvibuild.MpgTest\\Debug\\MpgTest.obj.cvidefprots" ;
+OUTFILE on "d:\\Workspace\\VisualStudio\\Test\\MPG_2022.03.31\\MpgTest\\cvibuild.MpgTest\\Debug\\MpgTest.obj" = "d:\\Workspace\\VisualStudio\\Test\\MPG_2022.03.31\\MpgTest\\cvibuild.MpgTest\\Debug\\MpgTest.obj.out" ;
+PrjObjects += "d:\\Workspace\\VisualStudio\\Test\\MPG_2022.03.31\\MpgTest\\cvibuild.MpgTest\\Debug\\MpgTest.obj" ;
+Object "d:\\Workspace\\VisualStudio\\Test\\MPG_2022.03.31\\MpgTest\\cvibuild.MpgTest\\Debug\\resources.res" : "d:\\Workspace\\VisualStudio\\Test\\MPG_2022.03.31\\MpgTest\\cvibuild.MpgTest\\Debug\\resources.in.rc" ;
+Depends "d:\\Workspace\\VisualStudio\\Test\\MPG_2022.03.31\\MpgTest\\cvibuild.MpgTest\\Debug\\resources.res" : "d:\\Workspace\\VisualStudio\\Test\\MPG_2022.03.31\\MpgTest\\cvibuild.MpgTest\\Debug\\manifest.xml" ;
+MainFromObjects "d:\\Workspace\\VisualStudio\\Test\\MPG_2022.03.31\\MpgTest\\cvibuild.MpgTest\\Debug\\MpgTest.exe" : $(PrjObjects) $(InstrObjects) ;
+Depends "d:\\Workspace\\VisualStudio\\Test\\MPG_2022.03.31\\MpgTest\\cvibuild.MpgTest\\Debug\\MpgTest.exe" : "d:\\Workspace\\VisualStudio\\Test\\MPG_2022.03.31\\MpgTest\\cvibuild.MpgTest\\Debug\\link_options.txt" ;
+Depends "d:\\Workspace\\VisualStudio\\Test\\MPG_2022.03.31\\MpgTest\\cvibuild.MpgTest\\Debug\\MpgTest.exe" : "d:\\Workspace\\VisualStudio\\Test\\MPG_2022.03.31\\MpgTest\\cvibuild.MpgTest\\Debug\\resources.res" ;
+Depends all : "d:\\Workspace\\VisualStudio\\Test\\MPG_2022.03.31\\MpgTest\\cvibuild.MpgTest\\Debug\\MpgTest.exe" ;
