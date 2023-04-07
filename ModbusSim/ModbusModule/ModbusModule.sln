@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModbusModule", "ModbusModule.csproj", "{3E929787-4DC9-4A88-A983-2D3414E5B5E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModbusLib", "..\ModbusLib\ModbusLib.csproj", "{EB411262-37D4-4646-B940-3A3142B3B6BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessageQueuesSimulator", "..\MessageQueuesSimulator\MessageQueuesSimulator.csproj", "{EE324D39-1305-46A9-9EA4-7CEA5675EEA4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessageQueuesController", "..\MessageQueuesController\MessageQueuesController.csproj", "{CCFD2DB1-6FC8-403A-A26C-74E28B91FB22}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSVImporter", "..\CSVImport\CSVImporter.csproj", "{535FE152-3F32-42DA-849B-7C5679DF203D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSVImporterTest", "..\CSVImporterTest\CSVImporterTest.csproj", "{E9D300DD-ECE4-4EF4-817F-8A2C32BD8DB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E929787-4DC9-4A88-A983-2D3414E5B5E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E929787-4DC9-4A88-A983-2D3414E5B5E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E929787-4DC9-4A88-A983-2D3414E5B5E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E929787-4DC9-4A88-A983-2D3414E5B5E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB411262-37D4-4646-B940-3A3142B3B6BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB411262-37D4-4646-B940-3A3142B3B6BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB411262-37D4-4646-B940-3A3142B3B6BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB411262-37D4-4646-B940-3A3142B3B6BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE324D39-1305-46A9-9EA4-7CEA5675EEA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE324D39-1305-46A9-9EA4-7CEA5675EEA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE324D39-1305-46A9-9EA4-7CEA5675EEA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE324D39-1305-46A9-9EA4-7CEA5675EEA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCFD2DB1-6FC8-403A-A26C-74E28B91FB22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCFD2DB1-6FC8-403A-A26C-74E28B91FB22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCFD2DB1-6FC8-403A-A26C-74E28B91FB22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCFD2DB1-6FC8-403A-A26C-74E28B91FB22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{535FE152-3F32-42DA-849B-7C5679DF203D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{535FE152-3F32-42DA-849B-7C5679DF203D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{535FE152-3F32-42DA-849B-7C5679DF203D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{535FE152-3F32-42DA-849B-7C5679DF203D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9D300DD-ECE4-4EF4-817F-8A2C32BD8DB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9D300DD-ECE4-4EF4-817F-8A2C32BD8DB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9D300DD-ECE4-4EF4-817F-8A2C32BD8DB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9D300DD-ECE4-4EF4-817F-8A2C32BD8DB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49A5CA41-8F51-49C0-A3D5-3CA066721FB6}
+	EndGlobalSection
+EndGlobal
