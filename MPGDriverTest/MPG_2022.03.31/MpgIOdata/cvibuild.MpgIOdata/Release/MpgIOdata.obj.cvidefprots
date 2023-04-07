@@ -1,0 +1,45 @@
+[Your_Functions_Here]
+Class="Function"
+Prototype="int Your_Functions_Here(int x);"
+SourceLocation="d:\Work\Kober\MPG\MpgIOdata\MpgIOdata.c:157:5"
+
+[DllMain]
+Class="Function"
+Prototype="int DllMain(struct HINSTANCE__ *hinstDLL, unsigned long fdwReason, void *lpvReserved);"
+SourceLocation="d:\Work\Kober\MPG\MpgIOdata\MpgIOdata.c:164:15"
+
+[KtsDio_StopTaskDigital]
+Class="Function"
+Prototype="int KtsDio_StopTaskDigital(int *result, int *errCode, char *errInfo, void *taskDIO, unsigned long *reserved);"
+SourceLocation="d:\Work\Kober\MPG\MpgIOdata\MpgIOdata.c:314:5"
+
+[MpgStart]
+Class="Function"
+Prototype="void MpgStart(int *result, int *errCode, char *errInfo, void **mpgTask, struct MpgTaskData *mpgData, int simMode, unsigned long *reserved) __declspec(dllexport);"
+SourceLocation="d:\Work\Kober\MPG\MpgIOdata\MpgIOdata.c:358:38"
+
+[MpgStop]
+Class="Function"
+Prototype="void MpgStop(int *result, int *errCode, char *errInfo, void **mpgTask, unsigned long *reserved) __declspec(dllexport);"
+SourceLocation="d:\Work\Kober\MPG\MpgIOdata\MpgIOdata.c:433:38"
+
+[MpgPanelCB]
+Class="Function"
+Prototype="int MpgPanelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\Work\Kober\MPG\MpgIOdata\MpgIOdata.c:587:17"
+
+[OnReadKeyCB]
+Class="Function"
+Prototype="int OnReadKeyCB(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="d:\Work\Kober\MPG\MpgIOdata\MpgIOdata.c:599:17"
+
+[DisplayDriverWnd]
+Class="Function"
+Prototype="void DisplayDriverWnd(int *result, int *errCode, char *errInfo, void *const *mpgTask, unsigned long *reserved) __declspec(dllexport);"
+SourceLocation="d:\Work\Kober\MPG\MpgIOdata\MpgIOdata.c:632:38"
+
+[HideDriverWnd]
+Class="Function"
+Prototype="void HideDriverWnd(int *result, int *errCode, char *errInfo, void *const *mpgTask, unsigned long *reserved) __declspec(dllexport);"
+SourceLocation="d:\Work\Kober\MPG\MpgIOdata\MpgIOdata.c:674:38"
+

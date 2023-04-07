@@ -1,0 +1,45 @@
+[NewAsyncTimer]
+Class="Function"
+Prototype="int NewAsyncTimer(double doubleInterval, int count, int status, int (*callbackFunc)(int, int, int, void *, int, int), void *callbackData);"
+SourceLocation="d:\Work\Kober\MPG\MpgIOdata\asynctmr.c:135:13"
+
+[NewAsyncTimerWithPriority]
+Class="Function"
+Prototype="int NewAsyncTimerWithPriority(double doubleInterval, int count, int status, int (*callbackFunc)(int, int, int, void *, int, int), void *callbackData, int threadPriority);"
+SourceLocation="d:\Work\Kober\MPG\MpgIOdata\asynctmr.c:142:13"
+
+[DiscardAsyncTimer]
+Class="Function"
+Prototype="int DiscardAsyncTimer(int timerId);"
+SourceLocation="d:\Work\Kober\MPG\MpgIOdata\asynctmr.c:460:13"
+
+[SuspendAsyncTimerCallbacks]
+Class="Function"
+Prototype="int SuspendAsyncTimerCallbacks();"
+SourceLocation="d:\Work\Kober\MPG\MpgIOdata\asynctmr.c:503:13"
+
+[ResumeAsyncTimerCallbacks]
+Class="Function"
+Prototype="int ResumeAsyncTimerCallbacks();"
+SourceLocation="d:\Work\Kober\MPG\MpgIOdata\asynctmr.c:522:13"
+
+[SetAsyncTimerAttribute]
+Class="Function"
+Prototype="int SetAsyncTimerAttribute(int timerId, int attribute, ...);"
+SourceLocation="d:\Work\Kober\MPG\MpgIOdata\asynctmr.c:542:15"
+
+[SetAsyncTimerAttributeFromParmInfo]
+Class="Function"
+Prototype="int SetAsyncTimerAttributeFromParmInfo(int timerId, int attribute, char *parmInfo);"
+SourceLocation="d:\Work\Kober\MPG\MpgIOdata\asynctmr.c:558:13"
+
+[GetAsyncTimerAttribute]
+Class="Function"
+Prototype="int GetAsyncTimerAttribute(int timerId, int attribute, void *value);"
+SourceLocation="d:\Work\Kober\MPG\MpgIOdata\asynctmr.c:668:13"
+
+[GetAsyncTimerResolution]
+Class="Function"
+Prototype="int GetAsyncTimerResolution(double *resolutionInSecs);"
+SourceLocation="d:\Work\Kober\MPG\MpgIOdata\asynctmr.c:751:13"
+

@@ -1,0 +1,7 @@
+LIBRARY MpgIOdata
+
+EXPORTS
+HideDriverWnd
+DisplayDriverWnd
+MpgStop
+MpgStart

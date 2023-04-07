@@ -1,0 +1,8 @@
+-inrc d:\Work\Kober\MPG\MpgIOdata\cvibuild.MpgIOdata\Debug\resources.in.rc
+-outrc d:\Work\Kober\MPG\MpgIOdata\cvibuild.MpgIOdata\Debug\resources.out.rc
+-inhdef d:\Work\Kober\MPG\MpgIOdata\cvibuild.MpgIOdata\Debug\MpgIOdata.h.hdefs
+-outdef d:\Work\Kober\MPG\MpgIOdata\cvibuild.MpgIOdata\Debug\MpgIOdata.dll.defs
+-indefprot d:\Work\Kober\MPG\MpgIOdata\cvibuild.MpgIOdata\Debug\asynctmr.obj.cvidefprots
+-indefprot d:\Work\Kober\MPG\MpgIOdata\cvibuild.MpgIOdata\Debug\MpgIOdata.obj.cvidefprots
+-dllName MpgIOdata.dll
+-addNITypeInfo 

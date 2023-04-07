@@ -1,0 +1,63 @@
+
+
+
+
+
+
+
+[MpgStart]
+Class="Function"
+Prototype="void MpgStart(int *result, int *errCode, char *errInfo, void **mpgTask, int simMode, unsigned long *reserved) __declspec(dllexport);"
+
+[MpgStop]
+Class="Function"
+Prototype="void MpgStop(int *result, int *errCode, char *errInfo, void **mpgTask, unsigned long *reserved) __declspec(dllexport);"
+
+[DisplayDriverWnd]
+Class="Function"
+Prototype="void DisplayDriverWnd(int *result, int *errCode, char *errInfo, void *const *mpgTask, unsigned long *reserved) __declspec(dllexport);"
+
+[HideDriverWnd]
+Class="Function"
+Prototype="void HideDriverWnd(int *result, int *errCode, char *errInfo, void *const *mpgTask, unsigned long *reserved) __declspec(dllexport);"
+
+[GetCmdsState]
+Class="Function"
+Prototype="void GetCmdsState(int *result, int *errCode, char *errInfo, void *const *mpgTask, struct MpgTaskDataOut *lines, unsigned long *reserved) __declspec(dllexport);"
+
+[GetSensorsState]
+Class="Function"
+Prototype="void GetSensorsState(int *result, int *errCode, char *errInfo, void *const *mpgTask, struct MpgTaskDataIn *lines, unsigned long *reserved) __declspec(dllexport);"
+
+[SetCmdLine0]
+Class="Function"
+Prototype="void SetCmdLine0(int *result, int *errCode, char *errInfo, void *const *mpgTask, unsigned char state, unsigned long *reserved) __declspec(dllexport);"
+
+[SetCmdLine1]
+Class="Function"
+Prototype="void SetCmdLine1(int *result, int *errCode, char *errInfo, void *const *mpgTask, unsigned char state, unsigned long *reserved) __declspec(dllexport);"
+
+[SetCmdLine2]
+Class="Function"
+Prototype="void SetCmdLine2(int *result, int *errCode, char *errInfo, void *const *mpgTask, unsigned char state, unsigned long *reserved) __declspec(dllexport);"
+
+[SetCmdLine3]
+Class="Function"
+Prototype="void SetCmdLine3(int *result, int *errCode, char *errInfo, void *const *mpgTask, unsigned char state, unsigned long *reserved) __declspec(dllexport);"
+
+[SetCmdLine4]
+Class="Function"
+Prototype="void SetCmdLine4(int *result, int *errCode, char *errInfo, void *const *mpgTask, unsigned char state, unsigned long *reserved) __declspec(dllexport);"
+
+[SetCmdLine5]
+Class="Function"
+Prototype="void SetCmdLine5(int *result, int *errCode, char *errInfo, void *const *mpgTask, unsigned char state, unsigned long *reserved) __declspec(dllexport);"
+
+[SetCmdLine6]
+Class="Function"
+Prototype="void SetCmdLine6(int *result, int *errCode, char *errInfo, void *const *mpgTask, unsigned char state, unsigned long *reserved) __declspec(dllexport);"
+
+[SetCmdLine7]
+Class="Function"
+Prototype="void SetCmdLine7(int *result, int *errCode, char *errInfo, void *const *mpgTask, unsigned char state, unsigned long *reserved) __declspec(dllexport);"
+

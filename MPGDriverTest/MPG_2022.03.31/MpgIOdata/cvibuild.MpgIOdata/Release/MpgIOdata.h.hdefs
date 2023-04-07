@@ -1,0 +1,19 @@
+
+
+
+[MpgStart]
+Class="Function"
+Prototype="void MpgStart(int *result, int *errCode, char *errInfo, void **mpgTask, struct MpgTaskData *mpgData, int simMode, unsigned long *reserved) __declspec(dllexport);"
+
+[MpgStop]
+Class="Function"
+Prototype="void MpgStop(int *result, int *errCode, char *errInfo, void **mpgTask, unsigned long *reserved) __declspec(dllexport);"
+
+[DisplayDriverWnd]
+Class="Function"
+Prototype="void DisplayDriverWnd(int *result, int *errCode, char *errInfo, void *const *mpgTask, unsigned long *reserved) __declspec(dllexport);"
+
+[HideDriverWnd]
+Class="Function"
+Prototype="void HideDriverWnd(int *result, int *errCode, char *errInfo, void *const *mpgTask, unsigned long *reserved) __declspec(dllexport);"
+

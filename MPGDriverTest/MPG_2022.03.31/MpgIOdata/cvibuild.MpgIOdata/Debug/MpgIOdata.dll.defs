@@ -1,0 +1,17 @@
+LIBRARY MpgIOdata
+
+EXPORTS
+SetCmdLine7
+SetCmdLine6
+SetCmdLine5
+SetCmdLine4
+SetCmdLine3
+SetCmdLine2
+SetCmdLine1
+SetCmdLine0
+GetSensorsState
+GetCmdsState
+HideDriverWnd
+DisplayDriverWnd
+MpgStop
+MpgStart

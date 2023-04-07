@@ -1,0 +1,335 @@
+[Workspace Header]
+Version = 2000
+Pathname = "/d/Workspace/VisualStudio/Test/MPG_2022.03.31/MpgIOdata/MpgIOdata.cws"
+CVI Dir = "/c/program files (x86)/national instruments/cvi2020"
+CVI Shared Dir = "/C/Program Files (x86)/National Instruments/Shared/CVI"
+CVI Pub Local Dir = "/C/ProgramData/National Instruments/CVI2020"
+CVI Pub Global Dir = "/C/ProgramData/National Instruments/CVI"
+IVI Standard Root Dir = "/C/Program Files (x86)/IVI Foundation/IVI"
+IVI Standard Root 64-bit Dir = "/C/Program Files/IVI Foundation/IVI"
+VXIplug&play Framework Dir = "/C/Program Files (x86)/IVI Foundation/VISA/winnt"
+VXIplug&play Framework 64-bit Dir = "/C/Program Files/IVI Foundation/VISA/win64"
+Number of Projects = 2
+Active Project = 2
+Project 0001 = "MpgIOdata.prj"
+Project 0002 = "/d/Workspace/VisualStudio/Test/MPG_2022.03.31/MpgTest/MpgTest.prj"
+Drag Bar Left = 160
+Window Top = 274
+Window Left = 26
+Window Bottom = 776
+Window Right = 816
+Maximized = True
+Maximized Children = True
+Max32 Number Of Errors = 20
+Track Include File Dependencies = True
+Prompt For Missing Includes = True
+Stop On First Error File = False
+Bring Up Err Win At Start = True
+Bring Up Err Win For Errors = False
+Save Changes Before Running = "Always"
+Save Changes Before Compiling = "Always"
+Hide Windows = False
+Break At First Statement = False
+Sort Type = "File Name"
+Number of Opened Files = 4
+Window Confinement Region Enabled = True
+MainColumnWidth = 143
+FileDateColumnWidth = 70
+FileSizeColumnWidth = 70
+
+[Project Header 0001]
+Version = 2000
+Don't Update DistKit = False
+Platform Code = 4
+Build Configuration = "Debug"
+Warn User If Debugging Release = 1
+Batch Build Release = False
+Batch Build Debug = False
+
+[Project Header 0002]
+Version = 2000
+Don't Update DistKit = False
+Platform Code = 4
+Build Configuration = "Debug"
+Warn User If Debugging Release = 1
+Batch Build Release = False
+Batch Build Debug = False
+
+[File 0001]
+Path = "/d/Workspace/VisualStudio/Test/MPG_2022.03.31/MpgIOdata/asynctmr.fp"
+File Type = "Function Panel"
+Disk Date = 3679646492
+In Projects = "1,"
+
+[File 0002]
+Path = "/d/Workspace/VisualStudio/Test/MPG_2022.03.31/MpgIOdata/MpgIOdata.c"
+File Type = "CSource"
+Disk Date = 3731573714
+In Projects = "1,"
+Source Window State = "1,514,514,514,52,52,52,0,0,0,0,0,0,0,0,0,504,0,514,52,401,721,1,0,"
+Window Top = 64
+Window Left = 26
+Window Z-Order = 3
+
+[File 0003]
+Path = "/d/Workspace/VisualStudio/Test/MPG_2022.03.31/MpgIOdata/asynctmr.c"
+File Type = "CSource"
+Disk Date = 3679646492
+In Projects = "1,"
+Source Window State = "1,552,553,553,0,80,80,0,3,0,0,0,0,0,0,0,511,0,552,0,401,721,1,0,"
+Window Top = 188
+Window Left = 90
+Window Z-Order = 4
+
+[File 0004]
+Path = "/d/Workspace/VisualStudio/Test/MPG_2022.03.31/MpgIOdata/asynctmr.h"
+File Type = "Include"
+Disk Date = 3679646492
+In Projects = "1,"
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,371,602,1,0,"
+Window Top = 33
+Window Left = 10
+
+[File 0005]
+Path = "/d/Workspace/VisualStudio/Test/MPG_2022.03.31/MpgIOdata/ErrorCodes.h"
+File Type = "Include"
+Disk Date = 3726729384
+In Projects = "1,"
+Source Window State = "1,31,31,31,12,23,12,0,3,0,0,0,0,0,0,0,18,0,31,23,401,721,1,0,"
+Window Top = 126
+Window Left = 58
+
+[File 0006]
+Path = "/d/Workspace/VisualStudio/Test/MPG_2022.03.31/MpgIOdata/MpgIOdata.h"
+File Type = "Include"
+Disk Date = 3731570088
+In Projects = "1,"
+Source Window State = "1,47,65,65,0,16,16,0,3,0,0,0,0,0,0,0,42,0,47,0,401,721,1,0,"
+Window Top = 95
+Window Left = 42
+Window Z-Order = 1
+
+[File 0007]
+Path = "/d/Workspace/VisualStudio/Test/MPG_2022.03.31/MpgIOdata/MpgTemplateWnd.uir"
+File Type = "User Interface Resource"
+Disk Date = 3726728388
+In Projects = "1,"
+Window Top = 219
+Window Left = 106
+Window Height = 401
+Window Width = 700
+
+[File 0008]
+Path = "/d/Workspace/VisualStudio/Test/MPG_2022.03.31/MpgTest/MpgTest.uir"
+File Type = "User Interface Resource"
+Disk Date = 3731570544
+In Projects = "2,"
+Window Top = 64
+Window Left = 26
+Window Height = 401
+Window Width = 721
+
+[File 0009]
+Path = "/d/Workspace/VisualStudio/Test/MPG_2022.03.31/MpgTest/MpgTest.c"
+File Type = "CSource"
+Disk Date = 3731574546
+In Projects = "2,"
+Source Window State = "1,138,138,138,20,31,20,0,3,0,0,0,0,0,0,0,133,0,138,31,326,721,1,0,"
+Window Top = 33
+Window Left = 10
+Window Z-Order = 2
+
+[File 0010]
+Path = "/d/Workspace/VisualStudio/Test/MPG_2022.03.31/MpgIOdata/MpgIOdata.lib"
+File Type = "Library"
+Disk Date = 3731573724
+In Projects = "2,"
+
+[File 0011]
+Path = "/d/Workspace/VisualStudio/Test/MPG_2022.03.31/MpgIOdata/MpgIOdata.dll"
+File Type = "DLL"
+Disk Date = 3731573724
+In Projects = "2,"
+
+[Tab Order]
+Tab 0001 = "/d/Workspace/VisualStudio/Test/MPG_2022.03.31/MpgIOdata/asynctmr.c"
+Tab 0002 = "/d/Workspace/VisualStudio/Test/MPG_2022.03.31/MpgIOdata/MpgIOdata.c"
+Tab 0003 = "/d/Workspace/VisualStudio/Test/MPG_2022.03.31/MpgIOdata/MpgIOdata.h"
+Tab 0004 = "/d/Workspace/VisualStudio/Test/MPG_2022.03.31/MpgTest/MpgTest.c"
+
+[Default Build Config 0001 Debug]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Release]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Debug64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Release64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Build Dependencies 0001]
+Number of Dependencies = 0
+
+[Build Options 0001]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Execution Trace = "Disabled"
+Profile = "Disabled"
+Debugging Level = "Standard"
+Break On Library Errors = True
+Break On First Chance Exceptions = False
+
+[Execution Target 0001]
+Execution Target Address = "Local desktop computer"
+Execution Target Port = 0
+Execution Target Type = 0
+
+[SCC Options 0001]
+Use global settings = True
+SCC Provider = ""
+SCC Project = ""
+Local Path = ""
+Auxiliary Path = ""
+Perform Same Action For .h File As For .uir File = "Ask"
+Perform Same Action For .cds File As For .prj File = "Ask"
+Username = ""
+Comment = ""
+Use Default Username = False
+Use Default Comment = False
+Suppress CVI Error Messages = False
+Always show confirmation dialog = True
+
+[DLL Debugging Support 0001]
+External Process Path = ""
+
+[Command Line Args 0001]
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+
+[Default Build Config 0002 Debug]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0002 Release]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0002 Debug64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0002 Release64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Build Dependencies 0002]
+Number of Dependencies = 0
+
+[Build Options 0002]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Execution Trace = "Disabled"
+Profile = "Disabled"
+Debugging Level = "Standard"
+Break On Library Errors = True
+Break On First Chance Exceptions = False
+
+[Execution Target 0002]
+Execution Target Address = "Local desktop computer"
+Execution Target Port = 0
+Execution Target Type = 0
+
+[SCC Options 0002]
+Use global settings = True
+SCC Provider = ""
+SCC Project = ""
+Local Path = ""
+Auxiliary Path = ""
+Perform Same Action For .h File As For .uir File = "Ask"
+Perform Same Action For .cds File As For .prj File = "Ask"
+Username = ""
+Comment = ""
+Use Default Username = False
+Use Default Comment = False
+Suppress CVI Error Messages = False
+Always show confirmation dialog = True
+
+[DLL Debugging Support 0002]
+External Process Path = ""
+
+[Command Line Args 0002]
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+

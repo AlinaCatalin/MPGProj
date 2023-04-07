@@ -1,0 +1,1 @@
+-force-include-file "asynctmr.c";"d:\Work\Kober\MPG\MpgIOdata\asynctmr.c" -force-include-file "asynctmr.h";"d:\Work\Kober\MPG\MpgIOdata\asynctmr.h" -force-include-file "ErrorCodes.h";"d:\Work\Kober\MPG\MpgIOdata\ErrorCodes.h" -force-include-file "MpgIOdata.c";"d:\Work\Kober\MPG\MpgIOdata\MpgIOdata.c" -force-include-file "MpgIOdata.h";"d:\Work\Kober\MPG\MpgIOdata\MpgIOdata.h" 

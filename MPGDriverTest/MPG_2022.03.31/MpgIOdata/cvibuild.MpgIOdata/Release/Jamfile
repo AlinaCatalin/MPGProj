@@ -1,0 +1,63 @@
+HDRS = 	"d:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\activex\\word"
+	"d:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\activex\\excel"
+	"d:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\custctrl"
+	"d:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\custctrl\\custsupp"
+	"d:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\cvirtsup"
+	"d:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\datasock"
+	"d:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\daqUtil"
+	"d:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\printing"
+	"d:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\toolbox"
+	"d:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\reportgen"
+	"d:\\program files (x86)\\national instruments\\cvi2020\\toolslib\\localui"
+	"d:\\program files (x86)\\national instruments\\cvi2020\\instr"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2020\\instr"
+	"d:\\program files (x86)\\national instruments\\cvi2020\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2020\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"d:\\program files (x86)\\national instruments\\cvi2020\\include\\ansi"
+	"d:\\program files (x86)\\national instruments\\cvi2020\\include\\clang\\3.3"
+	"C:\\Program Files (x86)\\IVI Foundation\\IVI\\Include"
+	"C:\\Program Files (x86)\\IVI Foundation\\VISA\\winnt\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\MSDTRedistributables\\SDKHeaderFiles\\8.1"
+	"d:\\Work\\Kober\\MPG\\MpgIOdata"
+	"d:\\Program Files (x86)\\National Instruments\\CVI2020\\bin"
+	"c:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\Bin"
+	;
+include Jamfile_instr ;
+LOCATE on "asynctmr.c" = "d:\\Work\\Kober\\MPG\\MpgIOdata" ;
+LOCATE on "asynctmr.h" = "d:\\Work\\Kober\\MPG\\MpgIOdata" ;
+LOCATE on "ErrorCodes.h" = "d:\\Work\\Kober\\MPG\\MpgIOdata" ;
+LOCATE on "MpgIOdata.c" = "d:\\Work\\Kober\\MPG\\MpgIOdata" ;
+LOCATE on "MpgIOdata.h" = "d:\\Work\\Kober\\MPG\\MpgIOdata" ;
+Object "d:\\Work\\Kober\\MPG\\MpgIOdata\\cvibuild.MpgIOdata\\Release\\asynctmr.obj" : "d:\\Work\\Kober\\MPG\\MpgIOdata\\asynctmr.c" ;
+FILENUM on "d:\\Work\\Kober\\MPG\\MpgIOdata\\cvibuild.MpgIOdata\\Release\\asynctmr.obj" = 1 ;
+DEFPROTS on "d:\\Work\\Kober\\MPG\\MpgIOdata\\cvibuild.MpgIOdata\\Release\\asynctmr.obj" = "d:\\Work\\Kober\\MPG\\MpgIOdata\\cvibuild.MpgIOdata\\Release\\asynctmr.obj.cvidefprots" ;
+OUTFILE on "d:\\Work\\Kober\\MPG\\MpgIOdata\\cvibuild.MpgIOdata\\Release\\asynctmr.obj" = "d:\\Work\\Kober\\MPG\\MpgIOdata\\cvibuild.MpgIOdata\\Release\\asynctmr.obj.out" ;
+PrjObjects += "d:\\Work\\Kober\\MPG\\MpgIOdata\\cvibuild.MpgIOdata\\Release\\asynctmr.obj" ;
+Object "d:\\Work\\Kober\\MPG\\MpgIOdata\\cvibuild.MpgIOdata\\Release\\MpgIOdata.obj" : "d:\\Work\\Kober\\MPG\\MpgIOdata\\MpgIOdata.c" ;
+FILENUM on "d:\\Work\\Kober\\MPG\\MpgIOdata\\cvibuild.MpgIOdata\\Release\\MpgIOdata.obj" = 2 ;
+DEFPROTS on "d:\\Work\\Kober\\MPG\\MpgIOdata\\cvibuild.MpgIOdata\\Release\\MpgIOdata.obj" = "d:\\Work\\Kober\\MPG\\MpgIOdata\\cvibuild.MpgIOdata\\Release\\MpgIOdata.obj.cvidefprots" ;
+OUTFILE on "d:\\Work\\Kober\\MPG\\MpgIOdata\\cvibuild.MpgIOdata\\Release\\MpgIOdata.obj" = "d:\\Work\\Kober\\MPG\\MpgIOdata\\cvibuild.MpgIOdata\\Release\\MpgIOdata.obj.out" ;
+PrjObjects += "d:\\Work\\Kober\\MPG\\MpgIOdata\\cvibuild.MpgIOdata\\Release\\MpgIOdata.obj" ;
+Object "d:\\Work\\Kober\\MPG\\MpgIOdata\\cvibuild.MpgIOdata\\Release\\MpgIOdata.h.hdefs" : "d:\\Work\\Kober\\MPG\\MpgIOdata\\MpgIOdata.h" ;
+FILENUM on "d:\\Work\\Kober\\MPG\\MpgIOdata\\cvibuild.MpgIOdata\\Release\\MpgIOdata.h.hdefs" = 3 ;
+OUTFILE on "d:\\Work\\Kober\\MPG\\MpgIOdata\\cvibuild.MpgIOdata\\Release\\MpgIOdata.h.hdefs" = "d:\\Work\\Kober\\MPG\\MpgIOdata\\cvibuild.MpgIOdata\\Release\\MpgIOdata.h.hdefs.out" ;
+PreLinkInputs += "d:\\Work\\Kober\\MPG\\MpgIOdata\\cvibuild.MpgIOdata\\Release\\resources.in.rc" ;
+PreLinkInputs += $(PrjObjects) $(InstrObjects) ;
+PreLinkOutputs += "d:\\Work\\Kober\\MPG\\MpgIOdata\\cvibuild.MpgIOdata\\Release\\resources.out.rc" ;
+PreLinkOutputs += "d:\\Work\\Kober\\MPG\\MpgIOdata\\cvibuild.MpgIOdata\\Release\\MpgIOdata.dll.defs" ;
+PreLink $(PreLinkOutputs) : $(PreLinkInputs) ;
+Depends "d:\\Work\\Kober\\MPG\\MpgIOdata\\cvibuild.MpgIOdata\\Release\\MpgIOdata.dll" : "d:\\Work\\Kober\\MPG\\MpgIOdata\\cvibuild.MpgIOdata\\Release\\MpgIOdata.dll.defs" ;
+Object "d:\\Work\\Kober\\MPG\\MpgIOdata\\cvibuild.MpgIOdata\\Release\\resources.res" : "d:\\Work\\Kober\\MPG\\MpgIOdata\\cvibuild.MpgIOdata\\Release\\resources.out.rc" ;
+Depends "d:\\Work\\Kober\\MPG\\MpgIOdata\\cvibuild.MpgIOdata\\Release\\resources.res" : $(PreLinkOutputs) ;
+Depends "d:\\Work\\Kober\\MPG\\MpgIOdata\\cvibuild.MpgIOdata\\Release\\resources.res" "d:\\Work\\Kober\\MPG\\MpgIOdata\\cvibuild.MpgIOdata\\Release\\resources.out.rc" : $(PrjObjects) $(InstrObjects) ;
+Depends "d:\\Work\\Kober\\MPG\\MpgIOdata\\cvibuild.MpgIOdata\\Release\\resources.res" : "d:\\Work\\Kober\\MPG\\MpgIOdata\\cvibuild.MpgIOdata\\Release\\manifest.xml" ;
+MainFromObjects "d:\\Work\\Kober\\MPG\\MpgIOdata\\cvibuild.MpgIOdata\\Release\\MpgIOdata.dll" : $(PrjObjects) $(InstrObjects) ;
+Depends "d:\\Work\\Kober\\MPG\\MpgIOdata\\cvibuild.MpgIOdata\\Release\\MpgIOdata.dll" : "d:\\Work\\Kober\\MPG\\MpgIOdata\\cvibuild.MpgIOdata\\Release\\link_options.txt" ;
+Depends "d:\\Work\\Kober\\MPG\\MpgIOdata\\cvibuild.MpgIOdata\\Release\\MpgIOdata.dll" : "d:\\Work\\Kober\\MPG\\MpgIOdata\\cvibuild.MpgIOdata\\Release\\dependencies.lnk.in" ;
+Depends "d:\\Work\\Kober\\MPG\\MpgIOdata\\cvibuild.MpgIOdata\\Release\\MpgIOdata.dll" : "d:\\Work\\Kober\\MPG\\MpgIOdata\\cvibuild.MpgIOdata\\Release\\resources.res" ;
+Depends all : "d:\\Work\\Kober\\MPG\\MpgIOdata\\cvibuild.MpgIOdata\\Release\\MpgIOdata.dll" ;

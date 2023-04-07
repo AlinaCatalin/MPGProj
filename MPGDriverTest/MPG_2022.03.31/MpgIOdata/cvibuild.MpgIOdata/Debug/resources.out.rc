@@ -1,0 +1,103 @@
+#pragma code_page(65001)
+#include "C:\Program Files (x86)\National Instruments\Shared\MSDTRedistributables\SDKHeaderFiles\8.1\winver.h"
+
+
+2 24 "d:\\Work\\Kober\\MPG\\MpgIOdata\\cvibuild.MpgIOdata\\Debug\\manifest.xml"
+
+
+STRINGTABLE DISCARDABLE
+BEGIN
+  65535  ""
+END
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
+ FILEFLAGS 0x1L
+ FILEOS VOS__WINDOWS32
+ FILETYPE VFT_DLL
+ FILESUBTYPE VFT_UNKNOWN
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "S.C. Kober S.R.L.\0"
+            VALUE "FileDescription", "MpgIOdata (Debug x86)\0"
+            VALUE "FileVersion", "1.0\0"
+            VALUE "InternalName", "MpgIOdata\0"
+            VALUE "LegalCopyright", "Copyright (c) S.C. Kober S.R.L. 2022\0"
+            VALUE "OriginalFilename", "MpgIOdata.dll\0"
+            VALUE "ProductName", "S.C. Kober S.R.L. MpgIOdata\0"
+            VALUE "ProductVersion", "1.0\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 0x4b0
+    END
+END
+
+MpgTemplateWnd.uir UIRFileType "d:\\Work\\Kober\\MPG\\MpgIOdata\\MpgTemplateWnd.uir"
+
+CVIDLLexports CVIDLLprototypes
+{
+   "int DiscardAsyncTimer(int timerId);"
+   "\n",
+   "void DisplayDriverWnd(int *result, int *errCode, char *errInfo, void *const *mpgTask, unsigned long *reserved) __declspec(dllexport);"
+   "\n",
+   "int DllMain(struct HINSTANCE__ *hinstDLL, unsigned long fdwReason, void *lpvReserved);"
+   "\n",
+   "int GetAsyncTimerAttribute(int timerId, int attribute, void *value);"
+   "\n",
+   "int GetAsyncTimerResolution(double *resolutionInSecs);"
+   "\n",
+   "void GetCmdsState(int *result, int *errCode, char *errInfo, void *const *mpgTask, struct MpgTaskDataOut *lines, unsigned long *reserved) __declspec(dllexport);"
+   "\n",
+   "void GetSensorsState(int *result, int *errCode, char *errInfo, void *const *mpgTask, struct MpgTaskDataIn *lines, unsigned long *reserved) __declspec(dllexport);"
+   "\n",
+   "void HideDriverWnd(int *result, int *errCode, char *errInfo, void *const *mpgTask, unsigned long *reserved) __declspec(dllexport);"
+   "\n",
+   "int KtsDio_StopTaskDigital(int *result, int *errCode, char *errInfo, void *taskDIO, unsigned long *reserved);"
+   "\n",
+   "void MpgStart(int *result, int *errCode, char *errInfo, void **mpgTask, int simMode, unsigned long *reserved) __declspec(dllexport);"
+   "\n",
+   "void MpgStop(int *result, int *errCode, char *errInfo, void **mpgTask, unsigned long *reserved) __declspec(dllexport);"
+   "\n",
+   "int NewAsyncTimer(double doubleInterval, int count, int status, int (*callbackFunc)(int, int, int, void *, int, int), void *callbackData);"
+   "\n",
+   "int NewAsyncTimerWithPriority(double doubleInterval, int count, int status, int (*callbackFunc)(int, int, int, void *, int, int), void *callbackData, int threadPriority);"
+   "\n",
+   "int ResumeAsyncTimerCallbacks();"
+   "\n",
+   "int SetAsyncTimerAttribute(int timerId, int attribute, ...);"
+   "\n",
+   "int SetAsyncTimerAttributeFromParmInfo(int timerId, int attribute, char *parmInfo);"
+   "\n",
+   "void SetCmdLine0(int *result, int *errCode, char *errInfo, void *const *mpgTask, unsigned char state, unsigned long *reserved) __declspec(dllexport);"
+   "\n",
+   "void SetCmdLine1(int *result, int *errCode, char *errInfo, void *const *mpgTask, unsigned char state, unsigned long *reserved) __declspec(dllexport);"
+   "\n",
+   "void SetCmdLine2(int *result, int *errCode, char *errInfo, void *const *mpgTask, unsigned char state, unsigned long *reserved) __declspec(dllexport);"
+   "\n",
+   "void SetCmdLine3(int *result, int *errCode, char *errInfo, void *const *mpgTask, unsigned char state, unsigned long *reserved) __declspec(dllexport);"
+   "\n",
+   "void SetCmdLine4(int *result, int *errCode, char *errInfo, void *const *mpgTask, unsigned char state, unsigned long *reserved) __declspec(dllexport);"
+   "\n",
+   "void SetCmdLine5(int *result, int *errCode, char *errInfo, void *const *mpgTask, unsigned char state, unsigned long *reserved) __declspec(dllexport);"
+   "\n",
+   "void SetCmdLine6(int *result, int *errCode, char *errInfo, void *const *mpgTask, unsigned char state, unsigned long *reserved) __declspec(dllexport);"
+   "\n",
+   "void SetCmdLine7(int *result, int *errCode, char *errInfo, void *const *mpgTask, unsigned char state, unsigned long *reserved) __declspec(dllexport);"
+   "\n",
+   "int SuspendAsyncTimerCallbacks();"
+   "\n",
+   "int Your_Functions_Here(int x);"
+   "\n",
+   "\0"
+}
+
+CVIDLLexports2 CVIDLLprototypes
+{
+}

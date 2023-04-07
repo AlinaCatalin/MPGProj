@@ -1,0 +1,7 @@
+-inrc d:\Work\Kober\MPG\MpgIOdata\cvibuild.MpgIOdata\Release\resources.in.rc
+-outrc d:\Work\Kober\MPG\MpgIOdata\cvibuild.MpgIOdata\Release\resources.out.rc
+-inhdef d:\Work\Kober\MPG\MpgIOdata\cvibuild.MpgIOdata\Release\MpgIOdata.h.hdefs
+-outdef d:\Work\Kober\MPG\MpgIOdata\cvibuild.MpgIOdata\Release\MpgIOdata.dll.defs
+-indefprot d:\Work\Kober\MPG\MpgIOdata\cvibuild.MpgIOdata\Release\asynctmr.obj.cvidefprots
+-indefprot d:\Work\Kober\MPG\MpgIOdata\cvibuild.MpgIOdata\Release\MpgIOdata.obj.cvidefprots
+-dllName MpgIOdata.dll
